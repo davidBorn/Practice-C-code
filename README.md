@@ -1,6 +1,6 @@
 # Practice-C-code
 
-// practice using vectors. Takes a vector of positive and negative integers and returns the number of positive integers with the number sum of nugative numbers. 
+// practice using vectors. Takes a vector of positive and negative integers and returns the number of positive integers with the number sum of negative numbers. 
 //for example: [1, 3, -4, -5] would give [2, -9]. And returns [0,0] if empty.
 
 
