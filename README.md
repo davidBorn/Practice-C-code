@@ -1,9 +1,12 @@
 # Practice-C-code
-Just some practice C++ code
-#include <cmath>
-using namespace std;
+
 // practice using vectors. Takes a vector of positive and negative integers and returns the number of positive integers with the number sum of nugative numbers. 
 //for example: [1, 3, -4, -5] would give [2, -9]. And returns [0,0] if empty.
+
+
+
+using namespace std;
+
 std::vector<int> countPosSumNeg(std::vector<int> arr) {
 	vector<int> positive;
 	vector<int> negative;
@@ -22,3 +25,10 @@ std::vector<int> countPosSumNeg(std::vector<int> arr) {
 			sum = sum + arr[i];
 			
 		}
+		
+	}
+	complete.push_back(positive.size());
+	complete.push_back(sum);
+	
+	return complete; 
+}
