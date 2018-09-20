@@ -1,0 +1,16 @@
+//Takes a vector and creates a new vector where each value is the sum of itself and the value before it. 
+[1, 2, 3] -> [1, 3, 6]
+
+using namespace std;
+std::vector<int> cumulativeSum(std::vector<int> array) {
+	int sum = 0;
+	vector<int> sumArray;
+	for (int i = 0; i < array.size(); i++){
+		sum = sum + array[i];
+		sumArray.push_back(sum);
+		
+		
+	}
+	return sumArray;
+	
+}
